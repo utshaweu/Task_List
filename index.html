@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task List</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" integrity="sha512-5fsy+3xG8N/1PV5MIJz9ZsWpkltijBI48gBzQ/Z2eVATePGHOkMIn+xTDHIfTZFVb9GMpflF2wOWItqxAP2oLQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body{
+      font-family: 'Open Sans', sans-serif;
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="container">
+    <h4>Task List</h4>
+    <form id="task_form">
+      <input type="text" placeholder="New Task" id="new_task">
+      <input type="submit" value="Add Task">
+    </form>
+      <hr>
+      <h4>Tasks</h4>
+      <input type="text" placeholder="Filter Task" id="task_filter">
+      <ul id="tasks">
+
+      </ul>
+      <button id="clear_task_btn">Clear Tasks</button>
+  </div>
+
+
+  <script src="js/script.js"></script>
+</body>
+</html>
